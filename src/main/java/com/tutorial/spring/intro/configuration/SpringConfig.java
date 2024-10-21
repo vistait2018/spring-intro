@@ -19,7 +19,7 @@ public class SpringConfig {
 
     @Bean(name = "jide")
     public  Employee employee(){
-        return new Employee(1, "jide aoppoqw");
+        return new Employee(1, "jide aoppoqw",oganisation());
     }
 
     @Bean
