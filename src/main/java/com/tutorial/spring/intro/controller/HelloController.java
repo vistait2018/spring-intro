@@ -21,7 +21,7 @@ public class HelloController {
 
     @GetMapping("/yaml")
     public String sayHelloYaml(){
-        return helloWorldComponent.sayHelloYaml();
+        return helloWorldComponent.sayHelloYaml() + helloWorldComponent.dbProfile();
     }
 
 }

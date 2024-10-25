@@ -10,6 +10,9 @@ public class HelloWorldComponent {
 
      @Autowired
      private ConfigPrefix configPrefix;
+
+     @Autowired
+     private DBComponent dbComponent;
     @Value("${custom.property.message}")
     private String message;
 
@@ -23,5 +26,10 @@ public class HelloWorldComponent {
 
     public String sayHelloYaml() {
         return yamlMessage+" "+ configPrefix.getFirstName() +" "+ configPrefix.getLastName();
+    }
+
+
+    public String dbProfile(){
+         return dbComponent.performDbOperation();
     }
 }
