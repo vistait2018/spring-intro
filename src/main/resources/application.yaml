@@ -1,0 +1,10 @@
+custom:
+  yaml:
+    message: Hello world from external yaml file
+
+
+config:
+  prefix:
+    firstName: Jide Yaml
+    lastName: Solanke Yaml
+

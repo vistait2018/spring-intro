@@ -1,8 +1,6 @@
 package com.tutorial.spring.intro;
 
-import com.tutorial.spring.intro.configuration.SpringConfig;
-import com.tutorial.spring.intro.model.Employee;
-import com.tutorial.spring.intro.model.Oganisation;
+import com.tutorial.spring.intro.importer.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class FirstApplicationContent {

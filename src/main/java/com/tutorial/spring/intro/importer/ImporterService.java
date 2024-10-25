@@ -1,5 +1,10 @@
 package com.tutorial.spring.intro.importer;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class ImporterService {
 
     private final BaseImporter baseImporter;

@@ -1,4 +1,4 @@
-package com.tutorial.spring.intro.configuration;
+package com.tutorial.spring.intro.importer;
 
 import com.tutorial.spring.intro.model.Employee;
 import com.tutorial.spring.intro.model.Oganisation;
